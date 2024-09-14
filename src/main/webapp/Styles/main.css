@@ -1,0 +1,298 @@
+/*hoja de estilos para la pagina JSP main.jsp*/
+
+*{
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;;
+}
+body{
+    background-color: white;
+}
+header{
+   background-color: rgb(239, 64, 64);
+   width: 100%;
+height: 30px;
+   display:flex;
+   text-align: center;
+   align-items: center;
+  
+}
+
+
+#h2{
+  margin: 35px;
+  margin-left: 500px;
+  font-size: 30px;
+  color:rgb(0, 0, 0);
+  padding: 5px;
+}
+ #img{
+    width: 15%;
+    height: 245px;
+    border-radius: 3px;
+    margin-top: 10px ;
+  
+
+  
+   }
+   nav{
+      width: 100%;
+      background-color: rgb(255, 255, 255);
+      height: 110px;
+      margin-left: 15%;
+      top: 30px;
+    
+      align-items: center;
+      display: flex;
+      border: 2px solid gray;
+  
+   }
+
+
+
+ 
+ 
+ 
+ #opcion{
+   float: left;
+   text-align: center;
+   display: block;
+   padding: 40px 40px;
+   background-color: rgb(255, 255, 255);
+   align-items: center;
+  
+
+
+
+ }
+ #opcion a{
+   text-decoration: none;
+   list-style: none;
+   color: rgb(249, 1, 1);
+ }
+ #opcion a:hover{
+   color: rgb(0, 0, 0);
+   
+ }
+ #icon{
+  font-size: 30px;
+  color: black;
+ }
+ #icon:hover{
+  color: red;
+ }
+ main{
+   background-color: rgb(255, 255, 255);
+     height: calc(100%vh - 100px) ;
+    width:100%;
+     overflow: hidden;
+    display: block;
+     align-items: center; 
+    justify-content: space-between;
+}
+ aside{
+   align-items: left;
+    width: 185px;
+    height: 550px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(100, 100, 100);
+    display: block;
+ }
+ #nave {
+   color: black;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   border: 2px solid rgb(255, 3, 3);
+ 
+   
+ }
+ #nave a{
+   color: black;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+ text-decoration: none;
+
+ 
+   
+ }
+ #nave a:hover {
+   color: rgb(255, 0, 0);
+   
+ 
+   
+ }
+ 
+ #menulat #servicios {  
+margin-top: 30px;
+   list-style: none;
+   font-family: Arial, Helvetica, sans-serif;
+   width: 200px;
+ text-align: left;
+ }
+  #menulat #servicio {
+   margin-top: 60px;
+   margin-left: 0px;
+   list-style: none;
+   font-family: Arial, Helvetica, sans-serif;
+   width: 150px;
+ text-align: left;
+ }
+ #servicios a{
+   text-decoration: none;
+   color: rgb(0, 0, 0);
+  margin: 2px;
+  padding-left: 0px;
+  text-align: left;
+  width: 100px;
+
+ }
+ #servicio a{
+   text-decoration: none;
+   color: rgb(66, 65, 65);
+   
+ }
+ #servicios a:hover{
+   text-decoration: none;
+   color: rgb(255, 0, 0);
+}
+
+ #servicio a:hover{
+   text-decoration: none;
+   color: rgb(255, 0, 0);
+}
+#hr{
+  border: 2px solid gray;
+  left: 2px;
+
+}
+ #icon2{
+  color: red;
+  font-size: 20px;
+ }
+ #icon2:hover{
+  color: rgb(0, 0, 0);
+ 
+ }
+ #p1{
+   position: absolute;
+   left: 15%;
+   top: 35%;
+   margin: 20px;
+   margin-left: 100px;
+   padding: 20px;
+   border: 2px solid rgb(212, 212, 212);
+
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 7px;
+box-shadow: 5px 5px 5px gray;
+ }
+ #p2 button {
+   
+ position: absolute;
+   left: 15%;
+   top: 50%;
+   margin: 20px;
+   margin-left: 100px;
+   padding: 20px;
+   border: 2px solid rgb(212, 212, 212);
+
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 7px;
+
+ }
+ #p3 button {
+   position: absolute;
+   left: 29.5%;
+   top: 50%;
+   margin: 20px;
+   margin-left: 90px;
+   padding: 20px;
+   border: 2px solid rgb(212, 212, 212);
+
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 7px;
+
+ }
+ #p4 button{
+   position: absolute;
+   left: 15%;
+   top: 67%;
+   margin: 20px;
+   margin-left: 100px;
+   padding: 20px;
+   border: 2px solid rgb(212, 212, 212);
+
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 7px;
+
+ }
+
+#div button:hover{
+color: red;
+box-shadow: 5px 5px 5px rgb(92, 92, 92);
+
+}
+
+ #p1-2 button{
+   position: absolute;
+   left: 50%;
+   top: 35%;
+   margin: 20px;
+   margin-left: 200px;
+   padding: 20px;
+   border: 2px solid rgb(212, 212, 212);
+
+    background-color: rgb(255, 255, 255);
+    width: 290px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px gray;
+
+ }
+
+ #p1-2 a{
+   color: red;
+   text-decoration: none;
+ }
+ #p1-2 a:hover{
+   color: rgb(49, 49, 49);
+   
+ }
+ #img2{
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   margin: 20px;
+   margin-left: 200px;
+   padding: 20px;
+   border: 2px solid rgb(212, 212, 212);
+
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px gray;
+ }
+ #zoom{
+  margin-left: 95%;
+  margin-top: 70%;
+  color: black;
+  font-size: 30px;
+  width: 10%;
+ }
+ #zoom:hover{
+  color: red;
+ }
+
+@media  screen and (max-width: 600px) {
+  
+}
+

@@ -1,0 +1,181 @@
+/*hoja de estilos para la pagina JSP UserLogin.jsp*/
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.contanier-form{
+    display: flex;
+    border: solid thin black;
+    max-width: 900px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 0.5px rgb(237, 237, 237);
+    transition: all 1s ease;
+    margin: 10px;
+}
+.information{
+    width: 40%;
+    display: flex;
+    background-color: rgb(224, 24, 24);
+    border: solid thin black;
+    border-radius: 15px;
+}
+.info-childs{
+    width: 100%;
+    padding: 10px;
+}
+.img1{
+    position: relative;
+    max-width: 50px;
+    height: 50px;
+    border: 20px;
+    margin: 10px 10px;
+    border-radius: 8px;
+}
+.t1{
+    text-align: center;
+}
+.img2{
+    max-width: 90%;;
+    height: 250px;
+    border-radius: 8px;
+    margin: 10px ;
+    position: relative;
+
+}
+
+hr{
+    border: solid thin black;
+}
+
+.form-information{
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    text-align: center;
+    background-color: white;
+}
+.form-information-childs{
+    padding: 0 30px;
+}
+.form-information-childs h2{
+    color: red;
+    font-size: 2rem;
+   
+
+}
+.form-information-childs p{
+    color: rgb(234, 39, 39);
+}
+.icons{
+    margin: 15px 0px;
+}
+.icons i{
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    margin: 0px 10px;
+    color: black;
+    font-size: 30px;
+    transition: background-color 0.3s ease;
+}
+.icons :hover{
+    background-color: rgb(248, 111, 111);
+    color: white;
+}
+.form{
+    margin: 30px 0 0 0;
+}
+.form label{
+ display: flex;
+ align-items: center;
+ margin-bottom: 10px;
+
+ border-radius: 15px;
+ padding: 0px 10px;
+}
+.form label input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(235, 235, 235);
+    border: none;
+    outline: none;
+    color: rgb(82, 77, 77);
+}
+
+.form input[type="submit"]{
+    margin: 10px;
+    padding: 10px 15px;
+    background-color: rgb(234, 80, 80);
+    color: rgb(28, 28, 28);
+    border-radius: 15px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+   
+   
+    
+}
+.forgot{
+    margin: 5px;
+    padding: 5px 7px;
+    background-color: transparent;
+    color: rgb(28, 28, 28);
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.forgot:hover{
+    color: red;
+}
+.form input[type="submit"] :hover{
+  background-color: rgb(253, 65, 65);
+  color: aliceblue;
+   
+}
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin:auto;
+    color: rgb(222, 45, 45);
+    margin-top: 10px;
+}
+/*DISEÑO RESPONSIVE*/
+
+@media screen and ( max-width: 750px) {
+    html{
+        font-size: 12px;
+    }
+}
+@media screen and ( max-width: 580px) {
+    html{
+        font-size: 10px;
+    }
+    .contanier-form{
+        flex-direction: column;
+        height: auto;
+    }
+    .information{
+        width: 100%;
+        padding: 20px;
+    }
+    .form-information{
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+
